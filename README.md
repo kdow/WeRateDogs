@@ -20,3 +20,6 @@ WeRateDogs provided their Twitter archive (which included tweets through August 
 The provided Twitter archive lacked some useful information: retweet count and favorite count. I used the tweet IDs to query the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called tweet_json.txt. I then read the txt file line by line into a pandas DataFrame only including the desired variables; retweet count and favorite count.
 
 Udacity also provided a link to image_predictions.tsv which I downloaded programatically using the Requests library.
+
+## Author
+This project was completed by Kelly Downes.
